@@ -43,6 +43,13 @@ let myButton = document.querySelector("#unique-id");
 // myButton.addEventListener("click", hello, { once: true });
 // myButton.addEventListener("click", hello2);
 
-let myImg = document.getElementById("banner");
-myImg.addEventListener('click', tellMeWhat);
-myButton.addEventListener("click", tellMeWhat);
+// let myImg = document.getElementById("banner");
+// myImg.addEventListener('click', tellMeWhat);
+
+// myButton.addEventListener("mouseover", function (e) {
+//   console.log(e);
+// });
+
+window.addEventListener("keydown", function (event) {
+  console.log(event.key);
+});
